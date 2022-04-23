@@ -65,7 +65,6 @@ body {
 	display: block;
 	width: 100%;
 	height: 100%;
-	position: absolute;
 	top: 0;
 	left: 0;
 }
@@ -247,41 +246,6 @@ body {
 		text-align: left;
 	}
 
-	.conteudoPrincipal-cursos-link:nth-child(3n) {
-		margin-right: 0;
-	}
-
-	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
-		margin-left: 0;
-	}
 
 }
-
-@media(min-width: 1000px) {
-	.conteudoPrincipal-cursos-link {
-		margin: 1.333%;
-	}
-
-	.conteudoPrincipal-cursos-link:nth-child(3n) {
-		margin-right: 1.33%;
-	}
-
-	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
-		margin-left: 1.333%;
-	}
-
-	.conteudoPrincipal-cursos-link:nth-child(4n) {
-		margin-right: 0;
-	}
-
-	.conteudoPrincipal-cursos-link:nth-child(4n+1) {
-		margin-left: 0;
-	}
-
-	.videoSobre-sobre {
-		margin-left: 1.5em;
-	}
-
-}
-
 
